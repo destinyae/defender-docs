@@ -20,7 +20,7 @@ Every log entry is structured with the following format:
 * `Date and Time`: The day and time the log entry was generated with the format `Day Month Year` and 12-hour clock format in the browser local timezone
 * `Severity`: The  severity level of the log entry, ranging from `trace` to `error`
 * `Subject`: The trigger/cause that generated the log. If contract related, the contract name is displayed
-* `Event`: Type of acitivty logged. For example, `Created`, `Added`, `Deledated`, `Updated`, etc.
+* `Event`: Type of activity logged. For example, `Created`, `Added`, `Deledated`, `Updated`, etc.
 * `Description`: Details on the event. For example, `Contract was updated`, `Address book entry was updated`, etc.
 * `User`: Team user that generated the log entry, directly or indirectly
 
